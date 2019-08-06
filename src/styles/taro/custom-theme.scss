@@ -1,0 +1,8 @@
+/* Custom Theme */
+$color-brand: #fa7374;
+$color-brand-light: #fa7374;
+$color-brand-dark: #fa7374;
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/loading.scss";

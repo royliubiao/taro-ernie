@@ -1,0 +1,427 @@
+
+/*浮动*/
+
+.oh {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 单行文本溢出 */
+
+.inline {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*字体大小------------------------------------------------------------*/
+
+.fw {
+    font-weight: normal;
+}
+
+.fw5 {
+    font-weight: 500;
+}
+
+.fwbd {
+    font-weight: bold;
+}
+
+
+/*字体对其方式*/
+
+.tac {
+    text-align: center;
+}
+
+.tal {
+    text-align: left;
+}
+
+.tar {
+    text-align: right;
+}
+
+/* 字体大小 */
+.fz12 {
+    font-size: 12px;
+}
+
+.fz13 {
+    font-size: 13px;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
+.fz15 {
+    font-size: 15px;
+}
+
+
+.fz16 {
+    font-size: 16px;
+}
+
+.fz17 {
+    font-size: 17px;
+}
+
+.fz18 {
+    font-size: 18px;
+}
+
+.fz21 {
+    font-size: 21px;
+}
+
+.fz24 {
+    font-size: 24px;
+}
+
+.fz28 {
+    font-size: 28px;
+}
+.fz36 {
+    font-size: 36px;
+}
+
+
+
+/*字体颜色*/
+
+.fcfa {
+    color: #FAB13B;
+}
+
+.fcff9 {
+    color: #FF9290;
+}
+
+.fc10 {
+    color: #10BACF;
+}
+
+.fcc4 {
+    color: #C4CBD4;
+}
+
+.fcff {
+    color: #fff;
+}
+
+.fcca {
+    color: #cacaca;
+}
+
+.fc85 {
+    color: #858C96;
+}
+
+.fcred {
+    color: #fa7347;
+}
+
+.fc8e {
+    color: #8E6BDE;
+}
+
+.fc25 {
+    color: #259df6;
+}
+
+.fc66 {
+    color: #666;
+}
+
+.fc99 {
+    color: #999;
+}
+
+.fc90 {
+    color: #906edf;
+}
+
+.fc9a {
+    color: #9a9a9a;
+}
+
+.fc5c {
+    color: #5C5FCB;
+}
+
+.fc1f {
+    color: #1F2630
+}
+
+/*背景颜色*/
+
+.bgf5 {
+    background: #f5f5f5;
+}
+
+.bgblack {
+    background: #000;
+}
+
+
+.bgff {
+    background: #fff;
+}
+
+.bgca {
+    background: #cacaca;
+}
+
+.bg5c {
+    background: #5C5FCB;
+}
+
+.bgf8 {
+    background: #F8F9FA;
+}
+
+/*宽度*/
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+/*内边距*/
+.p10 {
+    padding: 10px;
+}
+.p15 {
+    padding: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt15 {
+    padding-top: 15px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+.pt50 {
+    padding-top: 50px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+.pr30 {
+    padding-right: 30px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb15 {
+    padding-bottom: 15px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+/*外边距*/
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+.mt50 {
+    margin-top: 50px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+/*元素结构*/
+
+.db {
+    display: block;
+}
+
+.dn {
+    display: none;
+}
+
+.df {
+    display: flex;
+}
+
+/*位置*/
+
+.psr {
+    position: relative;
+}
+
+.psa {
+    position: absolute;
+}
+
+.psf {
+    position: fixed;
+}
+
+/*z-index*/
+
+.zindex2 {
+    z-index: 2
+}
+
+/*flex比例*/
+.flw{
+    flex-wrap: wrap;
+}
+
+.fl1 {
+    flex: 1
+}
+
+/*felx排列方式*/
+
+.fdc {
+    flex-direction: column;
+}
+
+.fdcr {
+    flex-direction: column-reverse;
+}
+
+/*flex对其方式-x轴对齐*/
+
+.jcs {
+    justify-content: flex-start;
+}
+
+.jce {
+    justify-content: flex-end;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+/*flex对其方式-y轴对齐*/
+
+.ais {
+    align-items: flex-start;
+}
+
+.aie {
+    align-items: flex-end;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aib {
+    align-items: baseline;
+}
+
+.aib {
+    align-items: stretch;
+}
+
+
+//圆角
+.br5 {
+    border-radius: 5px;
+}
+.brball{
+    border-radius: 50%;
+}
+
+//不能点击
+.cantCheck{
+   opacity: 0.5;
+}
+
+//阴影
+.bxs {
+    box-shadow: rgba(0, 0, 0, 0.1) 0.5px 2px 8px 1px;
+}
+
+.iconMoreRotate {
+    transform: rotate(90deg);
+    transition: all .3s ease;
+}
+
+
